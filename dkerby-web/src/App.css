@@ -201,37 +201,31 @@ html {
   z-index: 3;
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
+@supports not (-webkit-overflow-scrolling: touch) {
   .name {
-    color: #2980B9;
-    background: none;
-    -webkit-background-clip: none;
-    -webkit-text-fill-color: none;
+    font-size: 36px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #2980B9, #BDC3C7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-
+  
   .description {
-    color: #7F8C8D;
-    background: none;
-    -webkit-background-clip: none;
-    -webkit-text-fill-color: none;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: -webkit-linear-gradient(45deg, #16A085, #7F8C8D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 
 .name {
-  font-size: 36px;
-  font-weight: 800;
-  background: -webkit-linear-gradient(45deg, #2980B9, #BDC3C7 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #2980B9;
 }
 
 .description {
-  font-size: 24px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-image: -webkit-linear-gradient(45deg, #16A085, #7F8C8D 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #7F8C8D;
 }
 
 .triangle-pattern {
