@@ -28,10 +28,10 @@ function App() {
       <footer className="footer">
         <ul className="social-links">
           <li>
-          <a href="https://www.linkedin.com/in/dkerby0/" name="linkedinnav"  className="social-link-item social-link-item-linkedin"></a>
+          <a href="https://www.linkedin.com/in/dkerby0/" name="linkedinnav"  className="social-link-item social-link-item-linkedin"> </a>
           </li>
           <li>
-          <a href="https://github.com/Dkerby" name="githubnav" className="social-link-item social-link-item-github"></a>
+          <a href="https://github.com/Dkerby" name="githubnav" className="social-link-item social-link-item-github"> </a>
           </li>
           <li className="email-link-outer">
           <a className="email-link" href="mailto:hello@dkerby.io">hello@dkerby.io</a>
