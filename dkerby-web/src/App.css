@@ -197,26 +197,22 @@ html {
 }
 
 .text-wrapper {
-  z-index: 2;
+  z-index: 3;
 }
 
 .name {
   font-size: 36px;
   font-weight: 800;
-  color: #3498DB;
   background: -webkit-linear-gradient(45deg, #2980B9, #BDC3C7 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .description {
   font-size: 24px;
-  color:#BDC3C7;
   margin-left: 10px;
   margin-right: 10px;
-  background: -webkit-linear-gradient(45deg, #16A085, #7F8C8D 100%);
-  background-clip: text;
+  background-image: -webkit-linear-gradient(45deg, #16A085, #7F8C8D 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
