@@ -196,6 +196,10 @@ html {
   }
 }
 
+.text-wrapper {
+  z-index: 2;
+}
+
 .name {
   font-size: 36px;
   font-weight: 800;
