@@ -207,8 +207,6 @@ html {
     font-size: 36px;
     font-weight: 800;
     background: #fff;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
   
   .description {
