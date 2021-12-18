@@ -2,6 +2,7 @@ html {
   text-align: center;
   height: 100%;
   width: 100%;
+  position: fixed;
 }
 
 @keyframes App-logo-spin {
@@ -21,11 +22,10 @@ html {
   color:#fff;
   font-size: 20px;
   height: 44px;
-  width:44px;
-  background:#2C3E50;
+  width: 44px;
   transform: rotateY(0deg) rotate(0deg); /* needs Y at 0 deg to behave properly*/
   transition: transform 2s;
-  border: 2px solid #BDC3C7;
+  background-image: url(./assets/punk-44x44.png);
 }
 
 .box:hover {
@@ -37,7 +37,7 @@ html {
 }
 
 .header {
-  background-color: #16A085;
+  background-color: #48d1cc;
   position: absolute;
   top: 0;
   left: 0;
@@ -89,7 +89,7 @@ html {
 }
 
 .footer {
-  background-color: #16A085;
+  background-color: #48d1cc;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -203,8 +203,8 @@ html {
 .name {
   font-size: 36px;
   font-weight: 800;
-  color: #3498DB;
-  background: -webkit-linear-gradient(45deg, #2980B9, #BDC3C7 100%);
+  color: #008f8f;
+  background: -webkit-linear-gradient(45deg, #48d1cc, #BDC3C7 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -212,13 +212,9 @@ html {
 
 .description {
   font-size: 24px;
-  color:#BDC3C7;
+  color:#48d1cc;
   margin-left: 10px;
   margin-right: 10px;
-  background: -webkit-linear-gradient(45deg, #16A085, #7F8C8D 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .triangle-pattern {

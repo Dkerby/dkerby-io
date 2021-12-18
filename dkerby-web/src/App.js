@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <div className="App-logo box"><p className="logo-text">DK</p></div>
+        <div className="App-logo box">
+        </div>
         <div className="header-links">
           <h2><a className="header-link-item" href="https://github.com/Dkerby">Projects</a></h2>
           <h2><a className="header-link-item" href="https://www.linkedin.com/in/dkerby0/">Experience</a></h2>
@@ -20,7 +21,7 @@ function App() {
           </div>
           <div className="description">
             <h4>
-              Developer & Blockchain Enthusiast
+              Blockchain Developer
             </h4>
           </div>
         </div>
