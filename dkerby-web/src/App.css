@@ -1,8 +1,10 @@
 html {
   text-align: center;
+  position: fixed;
   height: 100%;
   width: 100%;
   position: fixed;
+  overflow: hidden;
 }
 
 @keyframes App-logo-spin {
@@ -197,24 +199,34 @@ html {
 }
 
 .text-wrapper {
-  z-index: 2;
+  z-index: 3;
+}
+
+@supports not (-webkit-overflow-scrolling: touch) {
+  .name {
+    font-size: 36px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #7fffd4, #2980B9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .description {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#48d1cc;
+  }
 }
 
 .name {
-  font-size: 36px;
-  font-weight: 800;
-  color: #008f8f;
-  background: -webkit-linear-gradient(45deg, #48d1cc, #BDC3C7 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  color: #2980B9;
 }
 
 .description {
-  font-size: 24px;
-  color:#48d1cc;
-  margin-left: 10px;
-  margin-right: 10px;
+  font-size: 20px;
+  color: #48d1cc;
 }
 
 .triangle-pattern {

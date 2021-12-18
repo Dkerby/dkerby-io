@@ -16,7 +16,9 @@ function App() {
         <div className="text-wrapper">
           <div className="name">
             <h3>
-              Drew Kerby
+              <span>
+                Drew Kerby
+              </span>
             </h3>
           </div>
           <div className="description">
